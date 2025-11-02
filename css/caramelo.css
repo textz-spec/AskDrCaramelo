@@ -1,0 +1,86 @@
+
+body {
+      background: linear-gradient(to bottom, #B3E5FC, #E1F5FE);
+    height: 100vh;
+    
+}
+
+.caramelo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.caramelo {
+    display: flex;
+    width: 44vh;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.p1 {
+    text-align: center;
+    text-transform: capitalize;
+    color:  rgb(0, 64, 255) ;
+}
+
+.dr-caramelo {
+    color:  #C68E17;
+   
+}
+
+input {
+    width: 25vh;
+    height: 8vh;
+    text-transform:capitalize;
+    background: #e6f2fc;
+    border:1px #5a9ee0 solid;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px rgba(90, 158, 224, 0.4);
+     outline: none;
+}
+
+
+::placeholder {
+ color: #1f4b8b;
+ text-align: left;
+
+}
+
+button {
+    width: 17vh;
+    height: 8vh;
+    border-radius: 1px;
+    background:linear-gradient(145deg, #6bb0f3, #5a9ee0) ;
+    box-shadow: 0 3px 4px rgba(0, 77, 153, 0.4);
+    border: 0px #5a9ee0;
+    text-transform: uppercase;
+}
+
+.caramelo-input {
+   display: flex;
+   gap: 5px;
+
+}
+
+.resposta {
+    margin: 5%;
+    text-align: center;
+    color: #000000;
+    text-transform: capitalize;
+
+}
+
+/* efect hover  */
+
+input:focus {
+    box-shadow: 0 0 8px rgba(36, 97, 168, 0.4);
+    color: #6a829d;
+   
+}
+
+
+
+
+
